@@ -351,6 +351,7 @@
 				TargetAttributes = {
 					969102B81BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5NT3DBK37K;
 					};
 					969102D11BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
@@ -362,9 +363,11 @@
 					};
 					969102E51BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5NT3DBK37K;
 					};
 					969102F41BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5NT3DBK37K;
 					};
 				};
 			};
@@ -609,6 +612,7 @@
 		9691030B1BBCF99100EA3FCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WatchKitAppDemo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo.watchkitapp.watchkitextension;
@@ -623,6 +627,7 @@
 		9691030C1BBCF99100EA3FCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "WatchKitAppDemo WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo.watchkitapp.watchkitextension;
@@ -638,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = WatchKitAppDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchKitAppDemo WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo.watchkitapp;
@@ -653,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = WatchKitAppDemo_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchKitAppDemo WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo.watchkitapp;
@@ -668,6 +675,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WatchKitAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo;
@@ -679,6 +687,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WatchKitAppDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sereneit.WatchKitAppDemo;
@@ -753,6 +762,7 @@
 				9691030C1BBCF99100EA3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9691030E1BBCF99100EA3FCC /* Build configuration list for PBXNativeTarget "WatchKitAppDemo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -761,6 +771,7 @@
 				969103101BBCF99100EA3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969103121BBCF99100EA3FCC /* Build configuration list for PBXNativeTarget "WatchKitAppDemo" */ = {
 			isa = XCConfigurationList;
@@ -769,6 +780,7 @@
 				969103141BBCF99100EA3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969103151BBCF99100EA3FCC /* Build configuration list for PBXNativeTarget "WatchKitAppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -777,6 +789,7 @@
 				969103171BBCF99100EA3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969103181BBCF99100EA3FCC /* Build configuration list for PBXNativeTarget "WatchKitAppDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -785,6 +798,7 @@
 				9691031A1BBCF99100EA3FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
