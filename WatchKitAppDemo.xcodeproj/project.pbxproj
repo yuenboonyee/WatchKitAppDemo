@@ -112,6 +112,7 @@
 		969103031BBCF99100EA3FCC /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		969103051BBCF99100EA3FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		969103071BBCF99100EA3FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9691031B1BBCF9BC00EA3FCC /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +150,7 @@
 		969102B01BBCF99100EA3FCC = {
 			isa = PBXGroup;
 			children = (
+				9691031B1BBCF9BC00EA3FCC /* readme.txt */,
 				969102BB1BBCF99100EA3FCC /* WatchKitAppDemo */,
 				969102D51BBCF99100EA3FCC /* WatchKitAppDemoTests */,
 				969102E01BBCF99100EA3FCC /* WatchKitAppDemoUITests */,
