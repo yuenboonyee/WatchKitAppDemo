@@ -11,6 +11,8 @@ The clean project with no tweaks to code signing will result in the following er
     Embedded Binary Signing Certificate:	iPhone Developer: OS X Server (U54GL79N9C)
     Parent App Signing Certificate:		iPhone Developer: OS X Server (42GP447372)
 
+Fix:
+Ensure that the 'team' for each target is explicitly set to the same team. By default, it is set to 'none'.
 
 Refererences:
 - UITestingDemo project
