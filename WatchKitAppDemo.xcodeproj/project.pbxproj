@@ -23,6 +23,7 @@
 		969103011BBCF99100EA3FCC /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969103001BBCF99100EA3FCC /* ExtensionDelegate.m */; };
 		969103041BBCF99100EA3FCC /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969103031BBCF99100EA3FCC /* NotificationController.m */; };
 		969103061BBCF99100EA3FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969103051BBCF99100EA3FCC /* Assets.xcassets */; };
+		F68FC2DA1BCF1E8700F5DD4C /* MyClassInSubModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F68FC2D61BCF1E8700F5DD4C /* MyClassInSubModule.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,9 @@
 		969103051BBCF99100EA3FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		969103071BBCF99100EA3FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9691031B1BBCF9BC00EA3FCC /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		F68FC2D51BCF1E8700F5DD4C /* MyClassInSubModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClassInSubModule.h; sourceTree = "<group>"; };
+		F68FC2D61BCF1E8700F5DD4C /* MyClassInSubModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClassInSubModule.m; sourceTree = "<group>"; };
+		F68FC2D71BCF1E8700F5DD4C /* MySubModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MySubModule.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		969102BB1BBCF99100EA3FCC /* WatchKitAppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F68FC2D31BCF1E8700F5DD4C /* SubModules */,
 				969102BF1BBCF99100EA3FCC /* AppDelegate.h */,
 				969102C01BBCF99100EA3FCC /* AppDelegate.m */,
 				969102C21BBCF99100EA3FCC /* ViewController.h */,
@@ -246,6 +251,31 @@
 				969102FB1BBCF99100EA3FCC /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F68FC2D31BCF1E8700F5DD4C /* SubModules */ = {
+			isa = PBXGroup;
+			children = (
+				F68FC2D41BCF1E8700F5DD4C /* MySubModule */,
+			);
+			path = SubModules;
+			sourceTree = SOURCE_ROOT;
+		};
+		F68FC2D41BCF1E8700F5DD4C /* MySubModule */ = {
+			isa = PBXGroup;
+			children = (
+				F68FC2D51BCF1E8700F5DD4C /* MyClassInSubModule.h */,
+				F68FC2D61BCF1E8700F5DD4C /* MyClassInSubModule.m */,
+				F68FC2D71BCF1E8700F5DD4C /* MySubModule.xcodeproj */,
+			);
+			path = MySubModule;
+			sourceTree = "<group>";
+		};
+		F68FC2D81BCF1E8700F5DD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +412,12 @@
 			mainGroup = 969102B01BBCF99100EA3FCC;
 			productRefGroup = 969102BA1BBCF99100EA3FCC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F68FC2D81BCF1E8700F5DD4C /* Products */;
+					ProjectRef = F68FC2D71BCF1E8700F5DD4C /* MySubModule.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				969102B81BBCF99100EA3FCC /* WatchKitAppDemo */,
@@ -444,6 +480,7 @@
 			files = (
 				969102C41BBCF99100EA3FCC /* ViewController.m in Sources */,
 				969102C11BBCF99100EA3FCC /* AppDelegate.m in Sources */,
+				F68FC2DA1BCF1E8700F5DD4C /* MyClassInSubModule.m in Sources */,
 				969102BE1BBCF99100EA3FCC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
