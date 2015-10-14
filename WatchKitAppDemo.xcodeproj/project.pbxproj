@@ -351,7 +351,7 @@
 				TargetAttributes = {
 					969102B81BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 5NT3DBK37K;
+						DevelopmentTeam = QYD427MKG5;
 					};
 					969102D11BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
@@ -363,11 +363,11 @@
 					};
 					969102E51BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 5NT3DBK37K;
+						DevelopmentTeam = QYD427MKG5;
 					};
 					969102F41BBCF99100EA3FCC = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 5NT3DBK37K;
+						DevelopmentTeam = QYD427MKG5;
 					};
 				};
 			};
